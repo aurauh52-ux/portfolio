@@ -1,0 +1,30 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+@layer base {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+	}
+
+	body {
+		min-width: 320px;
+		overflow-x: hidden;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	section {
+		scroll-margin-top: 4rem;
+	}
+}
